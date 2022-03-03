@@ -1,20 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Question />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Question from '@/components/Question.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Question
   }
 }
 </script>
 
 <style>
+
+html, body {
+ background: black;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
